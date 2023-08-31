@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   padding : 0 20px;
+    background-color: #274242;
+    color: #eef6f5;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.logout-button {
+    max-width:100px;
+    font-size: 20px;
+    border: 2px solid #eef6f5;
+    border-radius: 15px;
+    background-color: #274242;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.logout-button:hover {
+    background-color: #226265;
+}
